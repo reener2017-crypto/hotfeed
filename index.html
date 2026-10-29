@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>핫피드 — 실시간 이슈 피드</title>
+<meta name="description" content="뉴스와 커뮤니티 베스트 글을 한곳에 모은 실시간 이슈 피드">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; background: #f4f5f7; color: #191f28; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 60px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; padding: 6px 2px 14px; border-bottom: 2px solid #3182f6; }
+  .logo { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+  .logo em { font-style: normal; color: #3182f6; }
+  .updated { font-size: 12px; color: #8b95a1; }
+  h1 { font-size: 19px; margin: 22px 2px 12px; }
+  .card { display: block; background: #fff; border: 1px solid #e5e8eb; border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; text-decoration: none; color: inherit; }
+  .card:hover { border-color: #3182f6; }
+  .ttl { font-size: 16px; font-weight: 600; line-height: 1.45; }
+  .meta { margin-top: 7px; font-size: 12px; color: #8b95a1; display: flex; align-items: center; gap: 6px; }
+  .badge { font-size: 11px; font-weight: 700; color: #fff; padding: 2px 8px; border-radius: 999px; }
+  .b-연합뉴스 { background: #0055a5; }
+  .b-오늘의유머 { background: #00a651; }
+  .b-보배드림 { background: #f08c00; }
+  .b-루리웹 { background: #7b5ea7; }
+  .b-네이트판 { background: #e64980; }
+  .adslot { border: 1px dashed #c8ced4; border-radius: 12px; padding: 10px; margin-bottom: 10px; background: #fff; }
+  .adnote { font-size: 11px; color: #8b95a1; margin-top: 6px; }
+  #more { display: block; width: 100%; padding: 13px; margin-top: 4px; background: #fff; border: 1px solid #e5e8eb; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; }
+  #more:hover { border-color: #3182f6; color: #3182f6; }
+  footer { margin-top: 26px; font-size: 12px; color: #8b95a1; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">핫<em>피드</em></div>
+    <div class="updated" id="updated"></div>
+  </header>
+
+  <h1>실시간 이슈 피드</h1>
+  <div id="feed"></div>
+  <button id="more">더 보기</button>
+
+  <footer>
+    각 글의 저작권은 원본 게시물 작성자와 해당 사이트에 있으며, 제목을 누르면 원본 글로 이동합니다.<br>
+    이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+  </footer>
+</div>
+
+<script>
+/* ▼ 쿠팡파트너스 배너 코드를 받으면 아래 따옴표 안에 붙여넣으세요 (비어 있으면 광고가 표시되지 않습니다) */
+const COUPANG_BANNER_HTML = '';
+const AD_EVERY = 10; /* 글 몇 개마다 광고 1개 */
+
+let ITEMS = [];
+let shown = 0;
+const PAGE = 24;
+
+function relTime(ts) {
+  const diff = Math.max(0, Math.floor(Date.now() / 1000) - ts);
+  if (diff < 3600) return Math.max(1, Math.floor(diff / 60)) + '분 전';
+  if (diff < 86400) return Math.floor(diff / 3600) + '시간 전';
+  return Math.floor(diff / 86400) + '일 전';
+}
+
+function cardHTML(it) {
+  return '<a class="card" href="' + it.url + '" target="_blank" rel="noopener">'
+    + '<div class="ttl">' + it.title + '</div>'
+    + '<div class="meta"><span class="badge b-' + it.source + '">' + it.source + '</span>'
+    + '<span>' + it.board + '</span><span>·</span><span>' + relTime(it.ts) + '</span></div></a>';
+}
+
+function render() {
+  const feed = document.getElementById('feed');
+  let html = '';
+  const slice = ITEMS.slice(0, shown);
+  slice.forEach(function (it, i) {
+    html += cardHTML(it);
+    if (COUPANG_BANNER_HTML && (i + 1) % AD_EVERY === 0) {
+      html += '<div class="adslot">' + COUPANG_BANNER_HTML + '</div>';
+    }
+  });
+  feed.innerHTML = html;
+  document.getElementById('more').style.display = shown >= ITEMS.length ? 'none' : 'block';
+}
+
+document.getElementById('more').addEventListener('click', function () {
+  shown += PAGE;
+  render();
+});
+
+/* ▼ 배포 후 본인 GitHub 저장소의 data.json 주소로 바꾸세요. 예: https://raw.githubusercontent.com/내아이디/hotfeed/main/data.json */
+const DATA_URL = 'https://raw.githubusercontent.com/reener2017-crypto/hotfeed/main/data.json';
+fetch(DATA_URL + '?t=' + Date.now())
+  .then(function (r) { return r.json(); })
+  .then(function (d) {
+    ITEMS = d.items || [];
+    document.getElementById('updated').textContent = '최근 수집 ' + (d.updated_at || '');
+    shown = PAGE;
+    render();
+  })
+  .catch(function () {
+    document.getElementById('feed').innerHTML = '<div class="card">데이터를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.</div>';
+  });
+</script>
+</body>
+</html>
