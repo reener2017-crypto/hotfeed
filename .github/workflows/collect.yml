@@ -1,0 +1,22 @@
+name: collect
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python collector.py
+      - run: |
+          git config user.name "hotfeed-bot"
+          git config user.email "bot@hotfeed.kr"
+          git add data.json
+          git diff --cached --quiet || git commit -m "feed update"
+          git push
