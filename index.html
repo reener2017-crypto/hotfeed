@@ -29,7 +29,9 @@
   #more { display: block; width: 100%; padding: 13px; margin-top: 4px; background: #fff; border: 1px solid #e5e8eb; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; }
   #more:hover { border-color: #3182f6; color: #3182f6; }
   footer { margin-top: 26px; font-size: 12px; color: #8b95a1; line-height: 1.6; }
+  .adslot iframe { display: block; border: 0; }
 </style>
+<script src="https://ads-partners.coupang.com/g.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -49,9 +51,35 @@
 </div>
 
 <script>
-/* ▼ 쿠팡파트너스 배너 코드를 받으면 아래 따옴표 안에 붙여넣으세요 (비어 있으면 광고가 표시되지 않습니다) */
-const COUPANG_BANNER_HTML = '';
+/* 쿠팡파트너스 다이나믹 배너 설정 (파트너스 코드) */
+const COUPANG_AD = {"id":1044654,"template":"carousel","trackingCode":"AF5149407","width":"680","height":"140","tsource":""};
 const AD_EVERY = 10; /* 글 몇 개마다 광고 1개 */
+
+function injectAds() {
+  if (typeof PartnersCoupang === 'undefined') return;
+  document.querySelectorAll('.adslot:not([data-done])').forEach(function (slot) {
+    slot.setAttribute('data-done', '1');
+    var s = document.createElement('script');
+    s.textContent = 'new PartnersCoupang.G(' + JSON.stringify(COUPANG_AD) + ');';
+    slot.appendChild(s);
+  });
+  fitAds();
+  setTimeout(fitAds, 800);
+  setTimeout(fitAds, 2000);
+}
+
+function fitAds() {
+  document.querySelectorAll('.adslot').forEach(function (slot) {
+    var f = slot.querySelector('iframe');
+    if (!f) return;
+    var w = slot.clientWidth - 20;
+    var scale = Math.min(1, w / 680);
+    f.style.transformOrigin = 'top left';
+    f.style.transform = 'scale(' + scale + ')';
+    slot.style.height = Math.round(140 * scale + 20) + 'px';
+  });
+}
+window.addEventListener('resize', fitAds);
 
 let ITEMS = [];
 let shown = 0;
@@ -77,11 +105,12 @@ function render() {
   const slice = ITEMS.slice(0, shown);
   slice.forEach(function (it, i) {
     html += cardHTML(it);
-    if (COUPANG_BANNER_HTML && (i + 1) % AD_EVERY === 0) {
-      html += '<div class="adslot">' + COUPANG_BANNER_HTML + '</div>';
+    if ((i + 1) % AD_EVERY === 0) {
+      html += '<div class="adslot"></div>';
     }
   });
   feed.innerHTML = html;
+  injectAds();
   document.getElementById('more').style.display = shown >= ITEMS.length ? 'none' : 'block';
 }
 
