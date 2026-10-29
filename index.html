@@ -31,7 +31,6 @@
   footer { margin-top: 26px; font-size: 12px; color: #8b95a1; line-height: 1.6; }
   .adslot iframe { display: block; border: 0; }
 </style>
-<script src="https://ads-partners.coupang.com/g.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -51,22 +50,9 @@
 </div>
 
 <script>
-/* 쿠팡파트너스 다이나믹 배너 설정 (파트너스 코드) */
-const COUPANG_AD = {"id":1044654,"template":"carousel","trackingCode":"AF5149407","width":"680","height":"140","tsource":""};
+/* 쿠팡파트너스 다이나믹 배너 (iframe 태그) */
+const COUPANG_BANNER_HTML = '<iframe src="https://ads-partners.coupang.com/widgets.html?id=1044654&template=carousel&trackingCode=AF5149407&subId=&width=680&height=140&tsource=" width="680" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>';
 const AD_EVERY = 10; /* 글 몇 개마다 광고 1개 */
-
-function injectAds() {
-  if (typeof PartnersCoupang === 'undefined') return;
-  document.querySelectorAll('.adslot:not([data-done])').forEach(function (slot) {
-    slot.setAttribute('data-done', '1');
-    var s = document.createElement('script');
-    s.textContent = 'new PartnersCoupang.G(' + JSON.stringify(COUPANG_AD) + ');';
-    slot.appendChild(s);
-  });
-  fitAds();
-  setTimeout(fitAds, 800);
-  setTimeout(fitAds, 2000);
-}
 
 function fitAds() {
   document.querySelectorAll('.adslot').forEach(function (slot) {
@@ -106,11 +92,11 @@ function render() {
   slice.forEach(function (it, i) {
     html += cardHTML(it);
     if ((i + 1) % AD_EVERY === 0) {
-      html += '<div class="adslot"></div>';
+      html += '<div class="adslot">' + COUPANG_BANNER_HTML + '</div>';
     }
   });
   feed.innerHTML = html;
-  injectAds();
+  fitAds();
   document.getElementById('more').style.display = shown >= ITEMS.length ? 'none' : 'block';
 }
 
