@@ -101,7 +101,55 @@ def src_pann():
         if len(out) >= LIMIT: break
     return out
 
-SOURCES = [('연합뉴스', src_yna), ('오늘의유머', src_ou), ('보배드림', src_bobae), ('루리웹', src_ruli), ('네이트판', src_pann)]
+def src_ddanzi():
+    raw = fetch('https://www.ddanzi.com/hot_all').decode('utf-8', 'ignore')
+    out, seen = [], set()
+    for srl, t in re.findall(r'href="https://www\.ddanzi\.com/index\.php\?mid=free&amp;document_srl=(\d+)&amp;statusList=[^"]*"[^>]*>(.*?)</a>', raw, re.S):
+        t = re.sub(r'^\[자유게시판\]\s*', '', clean(t))
+        if not t or srl in seen: continue
+        seen.add(srl)
+        out.append(item('딴지일보', '인기글', t, 'https://www.ddanzi.com/free/' + srl, NOW))
+        if len(out) >= LIMIT: break
+    return out
+
+def src_clien():
+    raw = fetch('https://www.clien.net/service/board/park').decode('utf-8', 'ignore')
+    rows = []
+    for chunk in raw.split('<div class="list_item')[1:]:
+        m = re.search(r'list_subject" href="(/service/board/park/\d+)[^"]*"[^>]*>\s*<span class="subject_fixed"[^>]*title="([^"]*)"', chunk)
+        if not m: continue
+        s = re.search(r'list_symph[^>]*>\s*<span>(\d+)</span>', chunk)
+        rows.append((int(s.group(1)) if s else 0, clean(m.group(2)), 'https://www.clien.net' + m.group(1)))
+    rows.sort(key=lambda x: -x[0])
+    out, seen = [], set()
+    for _, t, u in rows:
+        if not t or u in seen: continue
+        seen.add(u)
+        out.append(item('클리앙', '모두의공원', t, u, NOW))
+        if len(out) >= LIMIT: break
+    return out
+
+def src_82cook():
+    raw = fetch('https://www.82cook.com/entiz/enti.php?bn=15').decode('utf-8', 'ignore')
+    rows = []
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>', raw, re.S):
+        links = re.findall(r'href="(read\.php\?bn=15(?:&amp;|&)num=\d+[^"]*)"[^>]*>(.*?)</a>', row, re.S)
+        if not links: continue
+        text = clean(row)
+        if not re.match(r'^\d+\s', text): continue
+        href, title = max(links, key=lambda x: len(clean(x[1])))
+        v = re.search(r'([\d,]+)\s*$', text)
+        rows.append((int(v.group(1).replace(',', '')) if v else 0, clean(title), 'https://www.82cook.com/entiz/' + href.replace('&amp;', '&')))
+    rows.sort(key=lambda x: -x[0])
+    out, seen = [], set()
+    for _, t, u in rows:
+        if not t or u in seen: continue
+        seen.add(u)
+        out.append(item('82쿡', '자유게시판', t, u, NOW))
+        if len(out) >= LIMIT: break
+    return out
+
+SOURCES = [('연합뉴스', src_yna), ('오늘의유머', src_ou), ('보배드림', src_bobae), ('루리웹', src_ruli), ('네이트판', src_pann), ('딴지일보', src_ddanzi), ('클리앙', src_clien), ('82쿡', src_82cook)]
 
 def main():
     old = {}
@@ -137,7 +185,7 @@ def main():
                 status[name] = 'dropped-stale'
 
     news = sorted(fresh.get('연합뉴스', []), key=lambda x: -x['ts'])
-    comm_by_site = [fresh.get(n, []) for n in ('오늘의유머', '보배드림', '루리웹', '네이트판')]
+    comm_by_site = [fresh.get(n, []) for n in ('오늘의유머', '보배드림', '루리웹', '네이트판', '딴지일보', '클리앙', '82쿡')]
     comm, idx = [], 0
     while any(idx < len(s) for s in comm_by_site):
         for s in comm_by_site:
