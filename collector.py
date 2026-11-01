@@ -37,16 +37,36 @@ def src_yna():
         if len(out) >= 30: break
     return out
 
+OU_VIA = {'via': None, 'err': None}
 def src_ou():
-    raw = fetch('https://www.todayhumor.co.kr/board/list.php?table=bestofbest').decode('utf-8', 'ignore')
-    out, seen = [], set()
-    for url, t in re.findall(r'<a href="(/board/view\.php\?table=bestofbest&no=\d+[^"]*)"[^>]*>(.*?)</a>', raw):
-        t = clean(t)
-        if not t or url in seen: continue
-        seen.add(url)
-        out.append(item('오늘의유머', '베스트오브베스트', t, 'https://www.todayhumor.co.kr' + url, NOW))
-        if len(out) >= LIMIT: break
-    return out
+    import urllib.parse
+    page = 'https://www.todayhumor.co.kr/board/list.php?table=bestofbest'
+    routes = [
+        ('www', page),
+        ('bare', 'https://todayhumor.co.kr/board/list.php?table=bestofbest'),
+        ('http', 'http://www.todayhumor.co.kr/board/list.php?table=bestofbest'),
+        ('allorigins', 'https://api.allorigins.win/raw?url=' + urllib.parse.quote(page, safe='')),
+        ('codetabs', 'https://api.codetabs.com/v1/proxy?quest=' + page),
+    ]
+    last_err = None
+    for via, url in routes:
+        try:
+            raw = fetch(url, timeout=20).decode('utf-8', 'ignore')
+            out, seen = [], set()
+            for u, t in re.findall(r'<a href="(/board/view\.php\?table=bestofbest&no=\d+[^"]*)"[^>]*>(.*?)</a>', raw):
+                t = clean(t)
+                if not t or u in seen: continue
+                seen.add(u)
+                out.append(item('오늘의유머', '베스트오브베스트', t, 'https://www.todayhumor.co.kr' + u, NOW))
+                if len(out) >= LIMIT: break
+            if out:
+                OU_VIA['via'] = via
+                return out
+            last_err = RuntimeError(f'{via}: 0건')
+        except Exception as e:
+            last_err = e
+    OU_VIA['err'] = f'{type(last_err).__name__}: {last_err}'
+    raise last_err
 
 def src_bobae():
     raw = fetch('https://www.bobaedream.co.kr/list?code=best').decode('utf-8', 'ignore')
@@ -93,17 +113,28 @@ def main():
         pass
 
     fresh = {}
+    status = {}
     for name, fn in SOURCES:
         try:
             got = fn()
             if got: fresh[name] = got
             print(f'[OK] {name}: {len(got)}건')
+            status[name] = 'ok'
         except Exception as e:
             print(f'[FAIL] {name}: {e}', file=sys.stderr)
+            status[name] = f'fail: {type(e).__name__}'
+    if OU_VIA['via']: status['오늘의유머_via'] = OU_VIA['via']
+    if OU_VIA['err']: status['오늘의유머_err'] = OU_VIA['err']
     for name, _ in SOURCES:
         if name not in fresh and name in old:
-            fresh[name] = old[name]
-            print(f'[KEEP] {name}: 기존 데이터 유지')
+            newest = max((it['ts'] for it in old[name]), default=0)
+            if NOW - newest <= 24 * 3600:
+                fresh[name] = old[name]
+                print(f'[KEEP] {name}: 기존 데이터 유지')
+                status[name] = 'kept'
+            else:
+                print(f'[DROP] {name}: 24시간 이상 수집 실패, 피드에서 제외')
+                status[name] = 'dropped-stale'
 
     news = sorted(fresh.get('연합뉴스', []), key=lambda x: -x['ts'])
     comm_by_site = [fresh.get(n, []) for n in ('오늘의유머', '보배드림', '루리웹', '네이트판')]
@@ -121,7 +152,7 @@ def main():
                 if ci < len(comm): feed.append(comm[ci]); ci += 1
     feed.extend(comm[ci:])
 
-    data = {'updated_at': datetime.fromtimestamp(NOW, KST).strftime('%Y-%m-%d %H:%M'), 'items': feed}
+    data = {'updated_at': datetime.fromtimestamp(NOW, KST).strftime('%Y-%m-%d %H:%M'), 'items': feed, 'source_status': status}
     json.dump(data, open(DATA_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'총 {len(feed)}건 저장')
 
