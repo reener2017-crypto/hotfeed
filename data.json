@@ -1,6 +1,370 @@
 {
- "updated_at": "2026-11-16 12:00",
+ "updated_at": "2026-11-16 12:10",
  "items": [
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "독감 3주 연속 증가…\"수험생 손 씻기 등으로 예방 당부\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116083500530",
+   "ts": 1794798179
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "화재로 소실 日 오키나와 문화유산 슈리성 재건…23일부터 공개",
+   "url": "https://www.yna.co.kr/view/AKR20261116082100009",
+   "ts": 1794798177
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "매니저에게 축가와 축의금 고르라는 이찬혁",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047808&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "맨 몸으로 서울 올라온지 24년 째..",
+   "url": "https://bbs.ruliweb.com/etcs/board/300116/read/30563860?",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "여야, 교육위서 'AI수능커닝' 한목소리 우려…\"육안식별 되겠나\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116081300001",
+   "ts": 1794798026
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "경찰, 10대 소녀 살인범 조사에 프로파일러 투입…범행동기 침묵",
+   "url": "https://www.yna.co.kr/view/AKR20261116081900004",
+   "ts": 1794798019
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "아파서 김장 못간다했더니 시댁에서 ㅋㅋㅋ...",
+   "url": "https://pann.nate.com/talk/375720452",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "조정식 긴급기자회견 왜 한건가요 ㅋㅋㅋ",
+   "url": "https://www.ddanzi.com/free/898987155",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "경찰, 불법전단지 특별단속 147명 검거·전화번호 3만개 차단",
+   "url": "https://www.yna.co.kr/view/AKR20261115049100004",
+   "ts": 1794798019
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "딥페이크·아동 성착취물 피의자 잡고 보니…절반 이상 10대",
+   "url": "https://www.yna.co.kr/view/AKR20261115049000004",
+   "ts": 1794798018
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "대통령 해외 갈때 꼭 개헌담론 나오는건",
+   "url": "https://www.clien.net/service/board/park/19293075",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "교육부 장관 \"수능 부정행위 땐 3년 자격 박탈 추진…..",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259325&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "난치질환 학생 정기진료시 '출석인정 결석' 처리된다",
+   "url": "https://www.yna.co.kr/view/AKR20261116042700530",
+   "ts": 1794798014
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "노후간판·불량식품 등 초등학교 주변 위해요소 20만여건 적발",
+   "url": "https://www.yna.co.kr/view/AKR20261116043000530",
+   "ts": 1794798013
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "“홍명보 연봉 반납하라” 한정수, 이번엔 야구에 분노…“최고액 받고 호주에 져?”",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047805&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "(86)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300116/read/30563860?#cmt",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "서울 초교 돌봄교실 문 닫으면 어디로…'긴급돌봄지도' 배포",
+   "url": "https://www.yna.co.kr/view/AKR20261116033100530",
+   "ts": 1794798013
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "갯벌 고립 위험 AI로 예측…소방청, 구조지원 서비스 개발",
+   "url": "https://www.yna.co.kr/view/AKR20261116040100530",
+   "ts": 1794798012
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "방금뜬 카리나 부쉐론 화보",
+   "url": "https://pann.nate.com/talk/375720411",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "장윤선기자의 몰락과 김대호 기자의 열정",
+   "url": "https://www.ddanzi.com/free/898983798",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "청소년 108명, 쓰레기 1만1천개 주웠다…환경정화 캠페인",
+   "url": "https://www.yna.co.kr/view/AKR20261116049700530",
+   "ts": 1794798012
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "'인천대 의전원 설립' 국회서 논의…공공의료 인재 양성안 제시",
+   "url": "https://www.yna.co.kr/view/AKR20261116052600065",
+   "ts": 1794798011
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "주식시장 폭락에 따른 정부의 대응정책 떴네요",
+   "url": "https://www.clien.net/service/board/park/19293103",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "현재 관세사 수석도 의심받고 있는 중",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259327&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "중소기업 92% \"외국인 근로자 첫 직장서 3년 이상 근무해야\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116048000030",
+   "ts": 1794798007
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "공정위, '단체보험 가입 강요' 카카오·티맵 동의의결 절차 개시",
+   "url": "https://www.yna.co.kr/view/AKR20261116069200002",
+   "ts": 1794798006
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "이번 세무사 시험 수석 부정행위자 자리배치 충격",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047803&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "이마트에서 구입한 스페셜킹 40입초밥~~~",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703203?",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "중기부, '모두의 창업' 로컬트랙 전국예선 개최…600명 경쟁",
+   "url": "https://www.yna.co.kr/view/AKR20261116069700030",
+   "ts": 1794798005
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "원전 공론화 25일 첫 공개토론회…내달 정부에 권고안",
+   "url": "https://www.yna.co.kr/view/AKR20261116067400530",
+   "ts": 1794798005
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "코르티스 무대보는데 왜저럼?",
+   "url": "https://pann.nate.com/talk/375720435",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "초5 딸아이 방 침대밑에 누런액체가 담긴 생수병..jpg",
+   "url": "https://www.ddanzi.com/free/898982522",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "KDI \"반도체 생산성 8.5% 늘 때 그 외 0.4% 줄어…임금 격차↑\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116075000002",
+   "ts": 1794798003
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "금감원 \"랩 계좌서 보유주식 매도 가능…운용 한도 확인해야\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116078400002",
+   "ts": 1794798003
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "종부세 인상 뉴스에 박수치던 무주택자들 상황",
+   "url": "https://www.clien.net/service/board/park/19293079",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "리트만점남 24년 수능성적표 인스타에서 내림",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259326&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "금감원 '퇴직연금 가이드북' 인기…장기투자 캠페인도 시작",
+   "url": "https://www.yna.co.kr/view/AKR20261116075600002",
+   "ts": 1794798002
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "경찰, 세무사 수석 초소형카메라 등 확보…수능부정 대책반 구성",
+   "url": "https://www.yna.co.kr/view/AKR20261116076700004",
+   "ts": 1794798001
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "장애가 옮으면 어쩌려고 그래!!",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047788&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "(41)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703203?#cmt",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "12억초과 주택 소유 가구 최대폭 증가…상하위 10% 격차도 최대",
+   "url": "https://www.yna.co.kr/view/AKR20261116079400002",
+   "ts": 1794798001
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "신현준 \"따뜻하던 故최불암·안성기 선배처럼 좋은 어른 되고파\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116034800005",
+   "ts": 1794798000
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "장원영 오늘",
+   "url": "https://pann.nate.com/talk/375720405",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "최민희 국회의원에 대한 부당한 감찰 반대 서명",
+   "url": "https://www.ddanzi.com/free/898981739",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "[알림] 연합뉴스 콘텐츠 저작권 고지",
+   "url": "https://www.yna.co.kr/view/AKR20261116083600011",
+   "ts": 1794798000
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "재경부, '세무사 시험 부정행위 대응TF' 구성…재발방지책 논의",
+   "url": "https://www.yna.co.kr/view/AKR20261116083300002",
+   "ts": 1794797974
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "개헌 누가 밀어붙이는지 궁금하지 않습니다",
+   "url": "https://www.clien.net/service/board/park/19293096",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "삼전 하닉 마이너스 어떻게 하고계세요?",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259323&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "정강선 전북체육회장 3선 출마 \"시작한 일 끝까지 책임질 것\"",
+   "url": "https://www.yna.co.kr/view/AKR20261116081800055",
+   "ts": 1794797879
+  },
+  {
+   "source": "연합뉴스",
+   "board": "최신 기사",
+   "title": "가정위탁 아동 9천여명…아동권리보장원, 부모 정책참여단 위촉",
+   "url": "https://www.yna.co.kr/view/AKR20261116083000530",
+   "ts": 1794797830
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "무교 남편이 십일조를 아내 월급에서만 내라는게 고민인 아내",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047801&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "새벽에 몰래먹는 계란찜",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703171?",
+   "ts": 1794798616
+  },
   {
    "source": "연합뉴스",
    "board": "최신 기사",
@@ -16,18 +380,18 @@
    "ts": 1794797606
   },
   {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "“홍명보 연봉 반납하라” 한정수, 이번엔 야구에 분노…“최고액 받고 호주에 져?”",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047805&vdate=",
-   "ts": 1794798038
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "18살 20살 커플 고민좀 들어주세요",
+   "url": "https://pann.nate.com/talk/375720305",
+   "ts": 1794798616
   },
   {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "맨 몸으로 서울 올라온지 24년 째..",
-   "url": "https://bbs.ruliweb.com/etcs/board/300116/read/30563860?",
-   "ts": 1794797416
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "박규환 최고가 핵심 이야기ㄷㄷㄷ",
+   "url": "https://www.ddanzi.com/free/898978980",
+   "ts": 1794798616
   },
   {
    "source": "연합뉴스",
@@ -44,809 +408,445 @@
    "ts": 1794797560
   },
   {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "아파서 김장 못간다했더니 시댁에서 ㅋㅋㅋ...",
-   "url": "https://pann.nate.com/talk/375720452",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "조정식 긴급기자회견 왜 한건가요 ㅋㅋㅋ",
-   "url": "https://www.ddanzi.com/free/898987155",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "행안위, '소방 인건비 2조 신규반영' 2027년도 예산안 의결",
-   "url": "https://www.yna.co.kr/view/AKR20261116080300001",
-   "ts": 1794797552
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "'수원 마약 영상' 30대 징역 4년 구형…촬영 당일 투약 미기소",
-   "url": "https://www.yna.co.kr/view/AKR20261116080700061",
-   "ts": 1794797500
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "민주당은 개헌 애기하는게 낯뜨겁지도 않나요?",
-   "url": "https://www.clien.net/service/board/park/19293069",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "중국이 ai컨닝 막는 방법",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259319&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "최민희 징계 수순에 친청계 반발…與 최고위서도 신경전",
-   "url": "https://www.yna.co.kr/view/AKR20261116078200001",
-   "ts": 1794797438
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "\"언론통제 못참아\" 체코 35만명 집결해 공영매체 수호 시위",
-   "url": "https://www.yna.co.kr/view/AKR20261116079500009",
-   "ts": 1794797337
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "이번 세무사 시험 수석 부정행위자 자리배치 충격",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047803&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "(85)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300116/read/30563860?#cmt",
-   "ts": 1794797416
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "아마데우스 해킹사고로 국내 여행사 개인정보 유출 확산 우려",
-   "url": "https://www.yna.co.kr/view/AKR20261116058500030",
-   "ts": 1794797271
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "레오 교황, 아마존 삼림파괴 강력 비판…\"소수 이익 위한 착취\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116079900009",
-   "ts": 1794797228
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "방금뜬 카리나 부쉐론 화보",
-   "url": "https://pann.nate.com/talk/375720411",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "장윤선기자의 몰락과 김대호 기자의 열정",
-   "url": "https://www.ddanzi.com/free/898983798",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "국내 수술시스템 배운다…인하대병원에 해외 연수생 12명 입교",
-   "url": "https://www.yna.co.kr/view/AKR20261116081700065",
-   "ts": 1794797202
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "창원시, 1직원 1사 전담제 한달…기업 민원 161건 중 43건 처리",
-   "url": "https://www.yna.co.kr/view/AKR20261116081100052",
-   "ts": 1794797116
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "대통령 해외 갈때 꼭 개헌담론 나오는건",
-   "url": "https://www.clien.net/service/board/park/19293075",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "교육부 장관 \"수능 부정행위 땐 3년 자격 박탈 추진…..",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259325&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "가짜 선거사무원에게 수당 지급 후 돌려받은 사무장 등 송치",
-   "url": "https://www.yna.co.kr/view/AKR20261116076800053",
-   "ts": 1794797089
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "'AI 커닝' LEET·변호사시험도 불안…법무부, 전파탐지기 등 검토",
-   "url": "https://www.yna.co.kr/view/AKR20261116079300004",
-   "ts": 1794797057
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "장애가 옮으면 어쩌려고 그래!!",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047788&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "이마트에서 구입한 스페셜킹 40입초밥~~~",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703203?",
-   "ts": 1794797416
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "국고채 금리 대체로 상승…3년물 장중 연 3.767%",
-   "url": "https://www.yna.co.kr/view/AKR20261116080900008",
-   "ts": 1794796964
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "이장섭 청주시장 \"오창 소각장 환경영향평가 재평가 이뤄져야\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116080100064",
-   "ts": 1794796959
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "코르티스 무대보는데 왜저럼?",
-   "url": "https://pann.nate.com/talk/375720435",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "초5 딸아이 방 침대밑에 누런액체가 담긴 생수병..jpg",
-   "url": "https://www.ddanzi.com/free/898982522",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "네오플, 게임기획 인턴 두자릿수 채용…정규직과 동일 급여",
-   "url": "https://www.yna.co.kr/view/AKR20261116080600017",
-   "ts": 1794796959
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "김민석, 최민희 발언 논란에 \"정치별개 윤리문제 판단 이뤄질것\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116074300001",
-   "ts": 1794796860
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "현 정부는 제발 국민이란 단어를 내뱉지 말기를...",
-   "url": "https://www.clien.net/service/board/park/19293068",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "현재 관세사 수석도 의심받고 있는 중",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259327&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "LoL 차세대 업데이트 최초 공개…\"내년 중 도입 목표\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116078700017",
-   "ts": 1794796849
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "홍릉 창업학교 대상에 이루비·플랜트너…AI·바이오 기술 인정",
-   "url": "https://www.yna.co.kr/view/AKR20261116077800017",
-   "ts": 1794796796
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "무교 남편이 십일조를 아내 월급에서만 내라는게 고민인 아내",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047801&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "(41)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703203?#cmt",
-   "ts": 1794797416
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "[시간들] 조선 거벽에서 AI로, 시험부정 진화하는 까닭",
-   "url": "https://www.yna.co.kr/view/AKR20261116074900546",
-   "ts": 1794796771
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "프로야구 FA 22명 공시…원태인·구자욱 시장에 나온다",
-   "url": "https://www.yna.co.kr/view/AKR20261116080400007",
-   "ts": 1794796767
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "장원영 오늘",
-   "url": "https://pann.nate.com/talk/375720405",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "최민희 국회의원에 대한 부당한 감찰 반대 서명",
-   "url": "https://www.ddanzi.com/free/898981739",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "행안장관 \"소방 인건비 국비 지원방식 아직 미확정\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116076100530",
-   "ts": 1794796711
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "오현주 코이카 이사장 취임 \"사업수행 넘어 개발협력 미래 기획\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116077200371",
-   "ts": 1794796711
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "종부세 인상 뉴스에 박수치던 무주택자들 상황",
-   "url": "https://www.clien.net/service/board/park/19293079",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "수능감독관 자원봉사합시다",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259320&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "모르는 10대 여성 찌른 20대 구속…\"살해하려 흉기 미리 준비\"",
-   "url": "https://www.yna.co.kr/view/AKR20261116074600051",
-   "ts": 1794796694
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "포티넷코리아, 김종덕 신임 지사장 선임",
-   "url": "https://www.yna.co.kr/view/AKR20261116074100017",
-   "ts": 1794796668
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "세무사 자수로 인생 망쳤다는 새X",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047777&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "새벽에 몰래먹는 계란찜",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703171?",
-   "ts": 1794797416
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "이동석 충주시장 '공직선거법 위반' 불송치에 맹정섭 이의신청",
-   "url": "https://www.yna.co.kr/view/AKR20261116076500064",
-   "ts": 1794796667
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "내년 상반기까지 태안 해양치유센터 최대 30% 할인 연장",
-   "url": "https://www.yna.co.kr/view/AKR20261116080000063",
-   "ts": 1794796660
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "18살 20살 커플 고민좀 들어주세요",
-   "url": "https://pann.nate.com/talk/375720305",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "박규환 최고가 핵심 이야기ㄷㄷㄷ",
-   "url": "https://www.ddanzi.com/free/898978980",
-   "ts": 1794798038
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "광주 군공항 전투기 서산 이전 계획에 주민들 \"결사반대\"(종합)",
-   "url": "https://www.yna.co.kr/view/AKR20261116049951063",
-   "ts": 1794796629
-  },
-  {
-   "source": "연합뉴스",
-   "board": "최신 기사",
-   "title": "ICJ, 이번주 미얀마 로힝야족 집단학살 판결…국제법 중대분수령",
-   "url": "https://www.yna.co.kr/view/AKR20261116077400009",
-   "ts": 1794796617
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "개헌 누가 밀어붙이는지 궁금하지 않습니다",
-   "url": "https://www.clien.net/service/board/park/19293096",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "리트만점남 24년 수능성적표 인스타에서 내림",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259326&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "여자 꼬셔서 모텔 가는 방법",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047771&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "(22)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703171?#cmt",
-   "ts": 1794797416
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "윈터 요즘따라 천사같네",
-   "url": "https://pann.nate.com/talk/375719871",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "긴급개헌이라니...",
-   "url": "https://www.ddanzi.com/free/898978516",
-   "ts": 1794798038
-  },
-  {
    "source": "클리앙",
    "board": "모두의공원",
    "title": "민주당은 한발자국도 나갈수없습니다.",
    "url": "https://www.clien.net/service/board/park/19293082",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "공인중개사 시험 다섯번떨어지고 알바해요",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259318&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "중 1 아들 꺼드럭 ㅠ ㅠ 답이 없네요 .",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047802&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "동내에 생긴 모든메뉴 3500원 인 음식점.",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703229?",
-   "ts": 1794797416
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "여자들 진짜 음식한다고 유세 부리는거 보면 기도안참..",
-   "url": "https://pann.nate.com/talk/375720438",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "조정식 개헌 기자회견",
-   "url": "https://www.ddanzi.com/free/898977090",
-   "ts": 1794798038
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "이 대통령 지지율 36.4%…국힘 43.0%·민주 34.6% [리얼미터]",
-   "url": "https://www.clien.net/service/board/park/19293063",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "삼전 하닉 마이너스 어떻게 하고계세요?",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259323&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "세계가 탐내는 ‘고려인삼’ 씨앗 3.6톤 중국에 빼돌려",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047800&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "(47)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703229?#cmt",
-   "ts": 1794797416
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "카리나 건강해보여서 예쁜건데",
-   "url": "https://pann.nate.com/talk/375720143",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "YTN과 유명 입시유튜버 “수능연기해야”",
-   "url": "https://www.ddanzi.com/free/898976729",
-   "ts": 1794798038
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "월세살며 주식투자 어떻게 생각하세요?",
-   "url": "https://www.clien.net/service/board/park/19293088",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "수능 국어 7등급도 아무나 받는게 아님",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259330&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "일본 시내에 고질라 출현... 관광객들 주의",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047779&vdate=",
-   "ts": 1794798038
-  },
-  {
-   "source": "루리웹",
-   "board": "베스트",
-   "title": "와이프가 먹고싶다고 해서 퇴근후 만든 뼈없는 닭발",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703228?",
-   "ts": 1794797416
-  },
-  {
-   "source": "네이트판",
-   "board": "베스트톡 랭킹",
-   "title": "마이크 높이가 너무 낮았던 안유진 ㅋㅋㅋ",
-   "url": "https://pann.nate.com/talk/375720417",
-   "ts": 1794798038
-  },
-  {
-   "source": "딴지일보",
-   "board": "인기글",
-   "title": "뼈. 있네. 김어준!",
-   "url": "https://www.ddanzi.com/free/898974858",
-   "ts": 1794798038
-  },
-  {
-   "source": "클리앙",
-   "board": "모두의공원",
-   "title": "수능 좀 연기 한다고 답이 있을까싶긴하네요....",
-   "url": "https://www.clien.net/service/board/park/19293087",
-   "ts": 1794798038
-  },
-  {
-   "source": "82쿡",
-   "board": "자유게시판",
-   "title": "오래전 개콘인데 스카프 아저씨 같아요 ㅋㅋㅋ",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259316&page=1",
-   "ts": 1794798038
-  },
-  {
-   "source": "보배드림",
-   "board": "베스트글",
-   "title": "세무냥이가 자수한 결정적인 이유",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047775&vdate=",
-   "ts": 1794798038
+   "title": "세무사 자수로 인생 망쳤다는 새X",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047777&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
    "title": "(22)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703228?#cmt",
-   "ts": 1794797416
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703171?#cmt",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
-   "title": "원룸고양이 신고한 사람이 남친이라네요.",
-   "url": "https://pann.nate.com/talk/375721070",
-   "ts": 1794798038
+   "title": "윈터 요즘따라 천사같네",
+   "url": "https://pann.nate.com/talk/375719871",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
-   "title": "몽골에서 가장 우아한 포식자",
-   "url": "https://www.ddanzi.com/free/898974081",
-   "ts": 1794798038
+   "title": "긴급개헌이라니...",
+   "url": "https://www.ddanzi.com/free/898978516",
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
    "title": "이재명을 지지하는 삶",
    "url": "https://www.clien.net/service/board/park/19293085",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "어제 사우나에서 있었던 일",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259335&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "등뒤에서 화살을 쏘는자???????????????????",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047804&vdate=",
-   "ts": 1794798038
+   "title": "여자 꼬셔서 모텔 가는 방법",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047771&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
-   "title": "렉서스NX450h f sp 출고완료!",
-   "url": "https://bbs.ruliweb.com/etcs/board/320044/read/381679?",
-   "ts": 1794797416
+   "title": "동내에 생긴 모든메뉴 3500원 인 음식점.",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703229?",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
-   "title": "회사 동료 시아버님 부고 문자 받음",
-   "url": "https://pann.nate.com/talk/375719869",
-   "ts": 1794798038
+   "title": "여자들 진짜 음식한다고 유세 부리는거 보면 기도안참..",
+   "url": "https://pann.nate.com/talk/375720438",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
-   "title": "최민희에겐 잔인하면서 희대요시는 못건드리는 이유",
-   "url": "https://www.ddanzi.com/free/898973940",
-   "ts": 1794798038
+   "title": "조정식 개헌 기자회견",
+   "url": "https://www.ddanzi.com/free/898977090",
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
    "title": "민주당을 지지하는건 공정과 공평 때문입니다.",
    "url": "https://www.clien.net/service/board/park/19293078",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
-   "title": "무 활용법 (비빔국수용)",
-   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259317&page=1",
-   "ts": 1794798038
+   "title": "지인 아들 의대 갔는데",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259341&page=1",
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "장례지도사 19년짼데 처음으로 울었다",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047806&vdate=",
-   "ts": 1794798038
+   "title": "중 1 아들 꺼드럭 ㅠ ㅠ 답이 없네요 .",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047802&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
-   "title": "(56)",
-   "url": "https://bbs.ruliweb.com/etcs/board/320044/read/381679?#cmt",
-   "ts": 1794797416
+   "title": "(48)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703229?#cmt",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
-   "title": "파혼이 맞을까요?",
-   "url": "https://pann.nate.com/talk/375721018",
-   "ts": 1794798038
+   "title": "카리나 건강해보여서 예쁜건데",
+   "url": "https://pann.nate.com/talk/375720143",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
-   "title": "김창록 교수 페북.jpg",
-   "url": "https://www.ddanzi.com/free/898973899",
-   "ts": 1794798038
+   "title": "YTN과 유명 입시유튜버 “수능연기해야”",
+   "url": "https://www.ddanzi.com/free/898976729",
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
-   "title": "ai치팅이 아니라 그전부터 치팅해오던게 ai로 아무나 가능해진거죠",
-   "url": "https://www.clien.net/service/board/park/19293076",
-   "ts": 1794798038
+   "title": "월세살며 주식투자 어떻게 생각하세요?",
+   "url": "https://www.clien.net/service/board/park/19293088",
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "닥터X 한국판 작가와 연출은",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259322&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "친구 결혼식에 갔다가 처음 보는 여자를 만난 썰",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047774&vdate=",
-   "ts": 1794798038
+   "title": "세계가 탐내는 ‘고려인삼’ 씨앗 3.6톤 중국에 빼돌려",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047800&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
-   "title": "[자다토이즈] 스트리트 파이터 신상추가",
-   "url": "https://bbs.ruliweb.com/etcs/board/300087/read/30606876?",
-   "ts": 1794797416
+   "title": "와이프가 먹고싶다고 해서 퇴근후 만든 뼈없는 닭발",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703228?",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
-   "title": "남친이 진도뺀뒤 변했어",
-   "url": "https://pann.nate.com/talk/375720572",
-   "ts": 1794798038
+   "title": "원룸고양이 신고한 사람이 남친이라네요.",
+   "url": "https://pann.nate.com/talk/375721070",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
-   "title": "(리얼미터) 조국혁신당 지지율 추이",
-   "url": "https://www.ddanzi.com/free/898973490",
-   "ts": 1794798038
+   "title": "뼈. 있네. 김어준!",
+   "url": "https://www.ddanzi.com/free/898974858",
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
-   "title": "코스피 레버리지 6천정도 추매를 했습니다.",
-   "url": "https://www.clien.net/service/board/park/19293067",
-   "ts": 1794798038
+   "title": "수능 좀 연기 한다고 답이 있을까싶긴하네요....",
+   "url": "https://www.clien.net/service/board/park/19293087",
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "모스부호는 뭐예요?",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259329&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "이우지가 여자랑 ㅅㅅ를 못하는 이유",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047797&vdate=",
-   "ts": 1794798038
+   "title": "일본 시내에 고질라 출현... 관광객들 주의",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047779&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
-   "title": "(30)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300087/read/30606876?#cmt",
-   "ts": 1794797416
+   "title": "(22)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703228?#cmt",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
-   "title": "리즈 정병들의 위고비 마운자로 드립이 멍청한 이유",
-   "url": "https://pann.nate.com/talk/375720552",
-   "ts": 1794798038
+   "title": "마이크 높이가 너무 낮았던 안유진 ㅋㅋㅋ",
+   "url": "https://pann.nate.com/talk/375720417",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
-   "title": "수능 성적 근황",
-   "url": "https://www.ddanzi.com/free/898973201",
-   "ts": 1794798038
+   "title": "몽골에서 가장 우아한 포식자",
+   "url": "https://www.ddanzi.com/free/898974081",
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
-   "title": "물질만능주의 NO NO~",
-   "url": "https://www.clien.net/service/board/park/19293101",
-   "ts": 1794798038
+   "title": "ai치팅이 아니라 그전부터 치팅해오던게 ai로 아무나 가능해진거죠",
+   "url": "https://www.clien.net/service/board/park/19293076",
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "가스차는 음식은 피하는수밖에 없나요",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259324&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "보배드림",
    "board": "베스트글",
-   "title": "메구리가 말하는 최악의 ㅅㅅ",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047796&vdate=",
-   "ts": 1794798038
+   "title": "세무냥이가 자수한 결정적인 이유",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047775&vdate=",
+   "ts": 1794798616
   },
   {
    "source": "루리웹",
    "board": "베스트",
-   "title": "두 번째 대마도 여행. (※스압)",
-   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703216?",
-   "ts": 1794797416
+   "title": "렉서스NX450h f sp 출고완료!",
+   "url": "https://bbs.ruliweb.com/etcs/board/320044/read/381679?",
+   "ts": 1794798616
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "회사 동료 시아버님 부고 문자 받음",
+   "url": "https://pann.nate.com/talk/375719869",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "최민희에겐 잔인하면서 희대요시는 못건드리는 이유",
+   "url": "https://www.ddanzi.com/free/898973940",
+   "ts": 1794798616
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "뉴스보면 ai컨닝 핫하네요",
+   "url": "https://www.clien.net/service/board/park/19293107",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "이재명 대통령아 코스닥 없애라",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259337&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "등뒤에서 화살을 쏘는자???????????????????",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047804&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "(56)",
+   "url": "https://bbs.ruliweb.com/etcs/board/320044/read/381679?#cmt",
+   "ts": 1794798616
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "파혼이 맞을까요?",
+   "url": "https://pann.nate.com/talk/375721018",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "김창록 교수 페북.jpg",
+   "url": "https://www.ddanzi.com/free/898973899",
+   "ts": 1794798616
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "완벽한 타인 2가 나오나여",
+   "url": "https://www.clien.net/service/board/park/19293106",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "나도 토익 토플 각종 기능사시험 다 봐둘껄 그랬음요",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259336&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "장례지도사 19년짼데 처음으로 울었다",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047806&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "[자다토이즈] 스트리트 파이터 신상추가",
+   "url": "https://bbs.ruliweb.com/etcs/board/300087/read/30606876?",
+   "ts": 1794798616
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "남친이 진도뺀뒤 변했어",
+   "url": "https://pann.nate.com/talk/375720572",
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "(리얼미터) 조국혁신당 지지율 추이",
+   "url": "https://www.ddanzi.com/free/898973490",
+   "ts": 1794798616
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "부유층들이 외국대학 몇년전부터 유행인거 같던데..",
+   "url": "https://www.clien.net/service/board/park/19293105",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "앞으로 치팅하는 놈들은 만점 안받으려고 노력하겠네",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259334&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "친구 결혼식에 갔다가 처음 보는 여자를 만난 썰",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047774&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "(30)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300087/read/30606876?#cmt",
+   "ts": 1794798616
   },
   {
    "source": "네이트판",
    "board": "베스트톡 랭킹",
    "title": "예쁜여자+못생긴남자 커플은 진짜 많은데",
    "url": "https://pann.nate.com/talk/375720283",
-   "ts": 1794798038
+   "ts": 1794798616
+  },
+  {
+   "source": "딴지일보",
+   "board": "인기글",
+   "title": "수능 성적 근황",
+   "url": "https://www.ddanzi.com/free/898973201",
+   "ts": 1794798616
+  },
+  {
+   "source": "클리앙",
+   "board": "모두의공원",
+   "title": "요즘 민주당 의원들 후원금이 많이 부족한가보네요.",
+   "url": "https://www.clien.net/service/board/park/19293104",
+   "ts": 1794798616
+  },
+  {
+   "source": "82쿡",
+   "board": "자유게시판",
+   "title": "저는 세신사에게 당한 썰 풀어 븝니다",
+   "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259342&page=1",
+   "ts": 1794798616
+  },
+  {
+   "source": "보배드림",
+   "board": "베스트글",
+   "title": "이우지가 여자랑 ㅅㅅ를 못하는 이유",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047797&vdate=",
+   "ts": 1794798616
+  },
+  {
+   "source": "루리웹",
+   "board": "베스트",
+   "title": "두 번째 대마도 여행. (※스압)",
+   "url": "https://bbs.ruliweb.com/etcs/board/300117/read/30703216?",
+   "ts": 1794798616
+  },
+  {
+   "source": "네이트판",
+   "board": "베스트톡 랭킹",
+   "title": "리즈 정병들의 위고비 마운자로 드립이 멍청한 이유",
+   "url": "https://pann.nate.com/talk/375720552",
+   "ts": 1794798616
   },
   {
    "source": "딴지일보",
    "board": "인기글",
    "title": "[리얼미터] 국힘 43.0% 민주 34.6% 이 36.4%",
    "url": "https://www.ddanzi.com/free/898972530",
-   "ts": 1794798038
+   "ts": 1794798616
   },
   {
    "source": "클리앙",
    "board": "모두의공원",
-   "title": "시험 관리는 중국 배우면 되지 않을까요?",
-   "url": "https://www.clien.net/service/board/park/19293098",
-   "ts": 1794798038
+   "title": "전자 커닝(?) 단기 대책으로는 금속탐지기 정도밖에",
+   "url": "https://www.clien.net/service/board/park/19293102",
+   "ts": 1794798616
   },
   {
    "source": "82쿡",
    "board": "자유게시판",
    "title": "재능 있는 사람 부러워요",
    "url": "https://www.82cook.com/entiz/read.php?bn=15&num=4259332&page=1",
-   "ts": 1794798038
+   "ts": 1794798616
   }
  ],
  "source_status": {
   "연합뉴스": "ok",
   "오늘의유머": "fail: HTTPError",
   "보배드림": "ok",
-  "루리웹": "kept",
+  "루리웹": "ok",
   "네이트판": "ok",
   "딴지일보": "ok",
   "클리앙": "ok",
