@@ -10,7 +10,7 @@ UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 KST = timezone(timedelta(hours=9))
 NOW = int(time.time())
 DATA_PATH = 'data.json'
-LIMIT = 15
+LIMIT = 20
 
 def fetch(url, timeout=25):
     req = urllib.request.Request(url, headers=UA)
@@ -149,7 +149,7 @@ def src_82cook():
         if len(out) >= LIMIT: break
     return out
 
-SOURCES = [('연합뉴스', src_yna), ('오늘의유머', src_ou), ('보배드림', src_bobae), ('루리웹', src_ruli), ('네이트판', src_pann), ('딴지일보', src_ddanzi), ('클리앙', src_clien), ('82쿡', src_82cook)]
+SOURCES = [('오늘의유머', src_ou), ('보배드림', src_bobae), ('루리웹', src_ruli), ('네이트판', src_pann), ('딴지일보', src_ddanzi), ('클리앙', src_clien), ('82쿡', src_82cook)]
 
 def main():
     old = {}
@@ -184,7 +184,6 @@ def main():
                 print(f'[DROP] {name}: 24시간 이상 수집 실패, 피드에서 제외')
                 status[name] = 'dropped-stale'
 
-    news = sorted(fresh.get('연합뉴스', []), key=lambda x: -x['ts'])
     comm_by_site = [fresh.get(n, []) for n in ('오늘의유머', '보배드림', '루리웹', '네이트판', '딴지일보', '클리앙', '82쿡')]
     comm, idx = [], 0
     while any(idx < len(s) for s in comm_by_site):
@@ -192,13 +191,7 @@ def main():
             if idx < len(s): comm.append(s[idx])
         idx += 1
 
-    feed, ci = [], 0
-    for i, n in enumerate(news):
-        feed.append(n)
-        if i % 2 == 1:
-            for _ in range(2):
-                if ci < len(comm): feed.append(comm[ci]); ci += 1
-    feed.extend(comm[ci:])
+    feed = comm
 
     data = {'updated_at': datetime.fromtimestamp(NOW, KST).strftime('%Y-%m-%d %H:%M'), 'items': feed, 'source_status': status}
     json.dump(data, open(DATA_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
